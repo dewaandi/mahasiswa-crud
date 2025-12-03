@@ -1,0 +1,28 @@
+# ===== PHP =====
+*.log
+*.cache
+*.tmp
+
+# Composer 
+vendor/
+composer.lock
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ===== Uploads =====
+uploads/*
+!uploads/.gitkeep
+
+# ===== Environment / Config =====
+.env
+*.env
+.env.*
+inc/config.php
+
+# ===== Misc =====
+node_modules/
